@@ -1,0 +1,423 @@
+/* CSS Reset */
+html, body, h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, li {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+	font-family:  garamond, 'my font';
+	font-weight: bold;
+}
+
+li{ font-family: garamond;
+}
+
+img {
+	border:none;
+	clear:both;
+	width:10%;
+	padding-bottom: 1em;
+}
+
+img:first-child{
+	width:15%;
+}
+body{
+	background-image: url("../images/book-background.jpg");
+	background-color: #5F9B7A;
+}
+
+ul, ol {
+	list-style-type: none;
+	font-size: 1.1em;
+}
+
+p{
+	padding:0.15em;
+	font-family: garamond , 'my font';
+	font-size: 1.3em;
+	color: black;
+}
+
+h1{
+	font-family: 'my font';
+}
+
+h2{
+	text-align: center;
+	padding-bottom: 0.25em;
+	color:  #5F9B7A;
+	font-size: 2.5em;
+	font-weight: bold;
+	font-family: 'my font';
+}	
+
+a{  
+    color: #104E2B;
+	font-family: 'garamond';
+	text-decoration: none;
+}
+
+a:hover {
+	color:red;
+}
+
+a:active{
+	color:red;
+}
+
+
+#pageheader{
+	background-color:#133924 ;
+	box-shadow: 1px 1px 15px rgb(35, 104, 65);
+}
+
+#main{
+	background-color:#133924;
+	box-shadow: 1px 20px 15px rgb(35, 104, 65);
+	display: block; /*to make IE 11 read it */
+}
+#page{
+	width: 90%;
+	margin: 0 auto;
+	padding: 1em;
+	max-width: 1024px;
+	
+}
+
+/* Common links */
+#commonLinks{
+    float: right;
+    width: 100%;
+    background-color: whitesmoke;
+    margin-bottom: 1em;
+    box-shadow: 1px 1px 15px rgb(35, 104, 65);	
+}
+
+#commonLinks ul li{
+	float:right;
+	display: inline;
+	padding-left: 1em;
+	padding-top:0.5em;
+	padding-bottom: 0.5em;
+}
+
+#commonLinks ul li a{
+	margin: 1em;
+	font-size: 1em;
+}
+/*Logo */	
+#logo{
+    box-shadow: 1px 1px 15px rgb(35, 104, 65);
+	border-radius: 50%;
+	text-align: center;
+}
+
+#logoText{
+	font-family: 'my font';
+	padding-bottom: 1em;
+	color: #3A7E57;
+    font-size: 3em;
+}
+
+/* Main Navigation */
+.navbar {
+    overflow: hidden;
+	display: flex;
+	background-color: whitesmoke;
+	box-shadow: 1px 1px 15px rgb(35, 104, 65);
+}
+
+.navbar a {
+    font-size: 1.1em;
+    text-align: center;
+	width: 20%;
+	align-self: center;
+	justify-content: center;
+	padding-top:0.5em;
+	padding-bottom:0.5em;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+	width: 20%;
+	align-self: center;
+	justify-content: center;
+		
+}
+
+.dropdown a{
+	display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-left: 0.25em;
+    align-items: center;
+    height: 100%;
+	font-size: 1.1em;
+}
+
+.navbar a:hover, .dropdown:hover {
+    text-decoration: underline;
+	color:red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 100px;
+    z-index: 1;
+	width:9.5%;
+	border: 1px solid #236841;
+	border-top: none;
+	padding-right: 1em;
+}
+
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+	width: 82%;
+}
+
+.dropdown-content a:hover {
+    color: red;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Site Map */
+#breadcrumbs {
+	padding: 1em;
+	text-decoration : none;
+}
+#breadcrumbs ul li{
+	display: inline;
+}
+
+#breadcrumbs a{
+	color: whitesmoke;
+	font-size: 0.75em;
+	font-family: garamond;
+}
+
+/* Video */
+#Media{
+	width:100%;
+	text-align: center;
+	padding: 1em;
+    width:100%;	
+}
+
+.video{
+	width: 50%;
+	padding:0.5em;
+	border-radius: 10%;
+	box-shadow: none;
+}
+
+#news{
+    margin: auto;
+	padding: 1em;
+	width:90%;
+}
+
+#rareBooks {
+	padding-left:3em;
+	list-style-image: url('../images/book-opened.png');
+}
+
+/*CSS for all text elements */
+.text{
+   width:88%;
+   float:right;
+}
+	
+.info{
+   padding-top:1em;
+   padding-bottom: 2em;
+}
+
+.info p{
+	float:right;
+	width: 85%;
+	
+}
+
+.info img{
+	padding:0.25em;
+	width: 10%;
+}
+
+.scroll{
+	padding: 1em;
+	background-color: whitesmoke;
+	margin-bottom: 0.75em;
+	box-shadow: 1px 1px 15px rgb(35, 104, 65);
+	border-radius: 2em;
+	padding-bottom: 2em;
+}
+
+/* CSS for 19Century page */
+#itemList{
+	padding: 2em;
+	font-size: 1.3em;
+}
+
+cite{
+	color:#3A7E57;	
+}
+
+.item{
+	padding: 1em;
+	background-color: whitesmoke;
+	margin-bottom: 0.75em;
+	box-shadow: 1px 1px 15px rgb(35, 104, 65);
+	border-radius: 2em;
+	padding-bottom: 2em;
+}
+
+.item ul{
+	padding-left: 8em;
+    list-style-image: url('../images/book-opened.png');
+}
+.item span{
+   color: red;
+}
+
+.book img{	
+  padding-top: 5em;
+  width: auto ;
+  float:left;
+}
+
+/*CSS for Delivery page */
+
+.scroll table{
+	margin: auto;
+    padding: 0;
+    text-align: center;
+    border: 2px solid #236841;
+    width: 50%;
+	box-shadow: 1px 1px 15px rgb(35, 104, 65);
+	border-collapse: collapse;
+    border-spacing: 0;
+	font-family: garamond;
+}
+
+.scroll caption{
+	display:none;
+}
+
+.scroll table th {
+	border: 2px solid #236841;
+	text-align: left;
+	font-size: 1.3em;
+	
+}
+.scroll table td{
+	border: 2px solid #236841;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+.scroll ul#delivery {
+	padding-left: 8em;
+	list-style-image: url('../images/book-opened.png');
+}
+
+/*CSS for Contact Us page */
+
+#message textarea{
+	width:100%;
+	height: 100px;
+}
+#submit{
+	width:100%;
+	text-align: center;
+}
+form{
+  font-size:1.2em; 
+}
+
+
+.Title input{
+	font-family: 'garamond';
+}
+.Title input:last-child{
+	width:25%
+	
+}
+.Title {
+	border: 2px solid #236841;
+	font-family: garamond;
+	
+}
+
+.Title legend{
+   color: #236841;
+   font-family: 'my font';
+}
+
+.Title option {
+    font-family: garamond;
+}
+
+#query{
+	border: 2px solid #236841;
+	font-family: garamond;
+	
+}
+
+#query legend{
+	color: #236841;
+	font-family: 'my font'
+}
+
+#message{
+	border: 2px solid #236841;
+	
+}
+
+#message legend{
+	color: #236841;
+	font-family: 'my font';
+}
+
+::placeholder{
+	font-family: garamond;
+	font-size: 1.4em;
+}
+
+#submit input{
+	border: 2px solid #236841;
+	font-family: garamond;
+	font-size: 1.3em;
+}
+
+
+/*Page Footer */
+#pagefooter{
+	clear: both;
+    width: 100%;
+    height: 50px;
+	box-shadow: 1px 1px 15px rgb(35, 104, 65);
+	background-color: whitesmoke;
+}
+
+#pagefooter ul{
+  text-align:center;
+  padding-top: 0.75em;
+}
+
+#pagefooter ul li{
+	display: inline;
+	padding-left: 1em;
+	font-family: garamond;
+}
+
+#pagefooter ul li a{
+	 font-family: garamond;
+}

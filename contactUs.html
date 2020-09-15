@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+		<script src="js/html5shiv.js"></script>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/media.css">
+		
+        <title>Emblem Collectible Books</title>
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		
+    </head>
+
+     <body>
+	    <div id="page">
+		 <header>
+		  <nav id="commonLinks">
+		   <ul>
+				<li><a href="contactUs.html">Contact Us</a></li>
+				<li><a href="#">Accessibility</a></li>
+				<li><a href="#">Login</a></li>
+		   </ul>
+     	  </nav>	
+		  <div id="pageheader" role="banner">
+		   <div id="logo">
+		     <img id="logopic" src="images/logo/emblem_logo_300.png">
+			   <div id="logoText">
+			    <h1>Emblem</h1>
+				<span>Rare, Collectible Books<span>
+			   </div>
+			  </div>
+			   <!-- Main Navigation Bar -->
+			  <nav class="navbar" role="navigation">
+				 <a href="index.html">Home</a>
+				   <div class="dropdown">
+					<a href="books.html">Books</a>
+     					<div class="dropdown-content">
+						    <a href="#">20th Century Books</a>
+							<a href="19century.html">19th Century Books</a>
+							<a href="#">18th Century Books</a>
+							<a href="#">Rare Books</a>
+						</div>
+		     		  </div>
+					<a href="delivery.html">Delivery</a>
+					<a href="#">About Us</a>
+					<a href="#">Books As An Investment</a>
+				
+			</nav>
+		   </div>
+		 </header> 
+		 
+		 
+	    <main id="main" role="main"
+		 <!-- Site Map -->
+	   <nav id="breadcrumbs">
+		  <ul>
+			<li><a href="index.html">Home >></a></li>
+			<li><a href="contactUs.html">Contact Us >></a></li>
+		  </ul>
+	   </nav> 
+	   
+	   <section id="news">
+				<article class="scroll">
+					<h2>Contact us</h2>
+					<p>
+						Please feel free to contact is if you are looking to buy a book not listed in 
+						our collection, or you are looking to sell a book, have a book valued or have a 
+						book repaired. We try to answer all queries within 24 hours of receipt. 
+					</p>
+				
+				<form method="post" action="">
+				<fieldset class="Title">
+						<legend>Details:</legend>
+						<label for="Title">Title</label>
+						<select name="title" class="Title">
+						     <option value="1">Mr</option>
+							 <option value="2">Mrs</option>
+							 <option value="3">Miss</option>
+							 <option value="4">Ms</option>
+							 <option value="5">Dr</option>
+		                     <option value="6">Prof</option>
+					    </select>		 
+				        <label for="firstName">First Name:</label>
+						<input required="" type="text" name="First" class="Title">
+						<label for="surName">Surname:</label>
+						<input required="" type="text" name="Second" class="Title">
+						<label for="mail">E-mail: </label>
+						<input required="" type="email" name="email" class="Title">
+				</fieldset>
+						
+				<fieldset id="query">
+						<legend>Nature of query:</legend>
+		                <input type="radio" name="query" value="buy">Buy books<br>
+						<input type="radio" name="query" value="sell">Sell books<br>
+						<input type="radio" name="query" value="return">Return a book<br>
+					    <input type="radio" name="query" value="return">Delivery<br>
+						<input type="radio" name="query" value="complain">Complain<br>
+						<input type="radio" name="query" value="other">Other<br>						
+				</fieldset>
+					
+				<fieldset id="message">
+					<legend>Message</legend>
+					<textarea placeholder="Type your message here..." name="message" ></textarea>
+					<div id="submit">
+					<input type="submit" name="submit" value="Submit">
+					</div>
+				</fieldset>
+			</form>
+		  </article>		
+		</section>
+	   </main>
+	   
+	    <footer id="pagefooter" role="contentinfo">
+			<ul>
+				<li><a href="">Privacy</a></li>
+				<li><a href="">Terms and Conditions</a></li>
+				<li><a href="">Returns</a></li>
+			</ul>
+	 </footer>		
+		    
+		</div>
+	 </body>
+</html>	 
